@@ -1,0 +1,23 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Launch ApacheLogAnalyserTest",
+			"request": "launch",
+			"mainClass": "test.java.ApacheLogAnalyserTest",
+			"projectName": "apache-log-analyser_2fa8ba50"
+		},
+		{
+			"type": "java",
+			"name": "Launch ApacheLogAnalyser",
+			"request": "launch",
+			"mainClass": "main.java.ApacheLogAnalyser",
+			"projectName": "apache-log-analyser_2fa8ba50",
+			"args": "src/test/resources/programming-task-example-data.log"
+		}
+	]
+}
