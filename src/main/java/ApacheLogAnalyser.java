@@ -1,10 +1,7 @@
 package main.java;
-import java.io.IOException;
 import java.nio.file.*;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -14,16 +11,12 @@ import java.util.regex.Pattern;
 import java.util.stream.*;
 
 public class ApacheLogAnalyser {
-
 	
 	final String regex = "^([\\d.]+) (\\S+) (\\S+) \\[([\\w:/]+\\s[+-]\\d{4})\\] \"(.+?) (.+?) (.+?)\" (\\d{3}) (\\d+) \"([^\"]+)\" \"(.+?)\"";
-	List<String> ipAddressList = new ArrayList<>();
-	List<String> urlList = new ArrayList<>();
-
-	public ApacheLogAnalyser() {
-			}
-
 	
+	public ApacheLogAnalyser() {
+
+	}
 
 	/*
 	 * Parses an Apache access log file and returns a list containing
